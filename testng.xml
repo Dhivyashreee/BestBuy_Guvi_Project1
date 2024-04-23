@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/admin/IdeaProjects/bestbuy_project1">
+        <classes><class name="tests.BestBuyTests">
+            <methods><include name="homePageTest"/>
+                <include name="newAccountTest"/>
+                <include name="topDealMenu"/>
+                <include name="dealOfTheDay"/>
+                <include name="yesBestBuySellsThatMenu"/>
+                <include name="myBestBuyMembershipsMenu"/>
+                <include name="accessibilityBottomLink"/>
+                <include name="termsAndConditions"/>
+                <include name="privacy"/>
+                <include name="statePrivacyRights"/>
+                <include name="interestBasedAds"/>
+                <include name="addingItemToCart"/>
+            </methods></class></classes></test></suite>
